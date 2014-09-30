@@ -1,1 +1,29 @@
 life_server
+
+if (isServer) then {
+call compile preProcessFileLineNumbers "\life_server\textures\cop\police_diver_uniform_co.paa";
+};
+
+if (isServer) then {
+call compile preProcessFileLineNumbers "\life_server\textures\cop\police_man_co.paa";
+};
+
+if (isServer) then {
+call compile preProcessFileLineNumbers "\life_server\textures\cop\police_pilot_co.paa";
+};
+
+if (isServer) then {
+call compile preProcessFileLineNumbers "\life_server\textures\cop\swat_camo_vegeta_co.paa";
+};
+
+if (isServer) then {
+call compile preProcessFileLineNumbers "\life_server\textures\cop\swat_leader_vest.paa";call compile
+};
+
+if (isServer) then {
+preProcessFileLineNumbers "\life_server\textures\cop\swat_officer_co.paa";
+};
+
+if (isServer) then {
+preProcessFileLineNumbers "\life_server\textures\cop\swat_shirt.paa";
+};

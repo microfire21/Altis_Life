@@ -42,6 +42,7 @@ class Life_Client_Core
 		class initCiv {};
 		class initCop {};
 		class initMedic {};
+		class initZeus {};
 		class welcomeNotification {};
 	};
 	
@@ -111,6 +112,7 @@ class Life_Client_Core
 		class ticketAction {};
 		class packupSpikes {};
 		class storeVehicle {};
+		class robShops {};
 		class robAction {};
 		class captureHideout {};
 		class gather {};
@@ -165,6 +167,8 @@ class Life_Client_Core
 	class Player_Menu
 	{
 		file = "core\pmenu";
+		class wantedadd2 {};
+		class wanted2 {};
 		class wantedList {};
 		class wantedInfo {};
 		class wantedMenu {};
@@ -356,6 +360,7 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
+		class weed {};
 	};
 	
 	class Dialog_Controls
@@ -383,3 +388,4 @@ class Life_Client_Core
 		class gangDeposit {};
 	};
 };
+//edited by wookie

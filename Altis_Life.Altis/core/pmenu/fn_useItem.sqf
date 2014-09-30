@@ -77,6 +77,14 @@ switch (true) do
 		[] spawn life_fnc_lockpick;
 	};
 	
+	case (_item == "marijuana"):
+    {
+    if(([false,_item,1] call life_fnc_handleInv)) then
+    {
+        [] spawn life_fnc_weed;
+    };
+};
+	
 	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle","turtlesoup","donuts","tbacon","peach"]):
 	{
 		[_item] call life_fnc_eatFood;
