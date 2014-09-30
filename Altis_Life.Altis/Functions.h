@@ -388,4 +388,3 @@ class Life_Client_Core
 		class gangDeposit {};
 	};
 };
-//edited by wookie
